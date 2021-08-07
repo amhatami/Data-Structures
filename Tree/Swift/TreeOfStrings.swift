@@ -35,7 +35,7 @@ class Node {
 	sports.add(indoor)
     sports.add(outdoor)
 
-	// Create root's childs Node "indoor" "outdoor" 
+	// Create indoor's childs Node "tableTennis" "chess" "volleyball"
 	let tableTennis = Node(value: "Table Tennis")
 	let chess = Node(value: "Chess")
     let volleyball = Node(value: "volleyball")
@@ -44,7 +44,7 @@ class Node {
 	indoor.add(chess)
     indoor.add(volleyball)
 	
-    // Create root's childs Node "indoor" "outdoor" 
+    // Create outdoor's childs Node "Football" "Rugby" 
 	let football = Node(value: "Football")
 	let rugby = Node(value: "Rugby")
 	
@@ -53,3 +53,16 @@ class Node {
 
     //print "sports" tree    
     sports.printTree()
+
+/*
+
+Sports
+┣╸Indoor
+┃ ┣╸Table Tennis
+┃ ┣╸Chess
+┃ ┗╸volleyball
+┗╸Outdoor
+  ┣╸Football
+  ┗╸Rugby
+
+*/
