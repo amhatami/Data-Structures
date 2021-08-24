@@ -1,5 +1,3 @@
-# Frog Jmp
-
 # Stack Data Structure in 
 # Swift & Python & Java
 
@@ -46,10 +44,15 @@ First we should learn about procedures to support stack functions −
 ## Some other info
 Analysis of Stack Operations
 Below mentioned are the time complexities for various operations that can be performed on the Stack data structure.
+
 • **Push** Operation : **O(1)**
+
 • **Pop** Operation : **O(1)**
+
 • **Top** Operation : **O(1)**
+
 • **Search** Operation : **O(n)**
+
 The time complexities for push() and pop() functions are O(1) because we always have to insert or remove the data from the top of the stack, which is a one step process.
 Now that we have learned about the Stack in Data Structure, you can also check out
 
