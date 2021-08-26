@@ -1,3 +1,50 @@
+print("Hello Stack!")
+print("Last In First Out (LIFO)")
+var stack = Stack<Int>()
+print("push(1)")
+stack.push(1)
+print("push(2)")
+stack.push(2)
+print("push(3)")
+stack.push(3)
+print(stack)
+print("peek()")
+print(stack.peek())
+print("pop()")
+print(stack.pop())
+print(stack)
+print("stack == Stack<Int>()")
+print(stack == Stack<Int>())
+print(stack)
+stack = [3,2,1,5,6,3,8]
+print(stack)
+print("pop()")
+print(stack.pop())
+print(stack)
+
+
+/*
+Hello Stack!
+Last In First Out (LIFO)
+push(1)
+push(2)
+push(3)
+[1, 2, 3]
+peek()
+Optional(3)
+pop()
+Optional(3)
+[1, 2]
+stack == Stack<Int>()
+false
+[1, 2]
+[3, 2, 1, 5, 6, 3, 8]
+pop()
+Optional(8)
+[3, 2, 1, 5, 6, 3]
+*/
+ 
+
 //Last In First Out (LIFO)
 //pushing  time complexity = O(1)
 //poping  time complexity = O(1)
